@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+${0[[[DivStyle:TPflexBox|[[[divstyle:TPflexChld TPflexChld-1|${1}]]][[[divstyle:TPflexChld TPflexChld-2|${2}]]][[[divstyle:TPflexChld TPflexChld-3|${3}]]]]]]}
+.TPflexBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.TPflexChld {
+    flex:1 0 300px;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>snip-css-flex-box-3-column-basic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+.TPghostBtn {
+	margin: 2px;
+	padding: 15px 35px;
+	border: solid 3px #ccc;
+	background-color: transparent;
+	display: inline-block;
+	color: #000;
+}
+
+.TPghostBtn:hover {
+	background-color: #ccc;
+	color: #ffffff;
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>TPghostBtn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!--<scope>text.html.weo</scope>-->
+</snippet>
