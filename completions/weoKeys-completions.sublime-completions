@@ -99,7 +99,7 @@
 { "trigger": "NOW\tWEO Key", "contents": "[[[NOW:${1: optional format number}]]]$0"},
 { "trigger": "NumList\tWEO Key", "contents": "[[[NumList:${1: items separated by semicolons}|${2: optional class or style}|${3: optional starting number}|${4: optional number suffix}|${5: optional sep char (default to semicolon) }]]]$0"},
 { "trigger": "Opacity\tWEO Key", "contents": "[[[Opacity:${1: thePercent}]]]$0"},
-{ "trigger": "Page\tWEO Key", "contents": "[[[Page:${1: A page title or id}|${2: optional link text}|${3: optional style/class}|${4: optional list of client IDs to search}|${5: optional title text}|${6: optional target}]]]$0"},
+{ "trigger": "Page\tWEO Key", "contents": "[[[Page:${1: A page title or id}|${2: optional link text}|${3: optional style/class}]]]$0"},
 { "trigger": "Page_ID\tWEO Key", "contents": "[[[Page_ID:]]]$0"},
 { "trigger": "Page_Name\tWEO Key", "contents": "[[[Page_Name:]]]$0"},
 { "trigger": "Page-SP\tWEO Key", "contents": "[[[Page-SP:${1: A special page title}|${2: optional link text}|${3: opt style/class}|${4: opt alt Edition ID}|${5: opt doOpenNewWindow (1 new, 0 default)}|${6: optional title text}|${7: optional target}]]]$0"},
