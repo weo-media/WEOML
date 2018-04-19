@@ -9,17 +9,17 @@ Also included...
   - Snippets for commonly used code
 
 ## Other Packages To Install
-sublime tutor
-ghost text
-bracket highlighter
-css format
-default file type
+  - sublime tutor
+  - ghost text
+  - bracket highlighter
+  - css format
+  - default file type
 
 ### Optional
-color highlighter
-emmet
-html-css-js-prettify
-RegReplace
+  - color highlighter
+  - emmet
+  - html-css-js-prettify
+  - RegReplace
 
 ## Auto Completions
 1. Open sublime preferences with ctrl + ' or cmd + '
