@@ -35,4 +35,4 @@ Also included...
       "use_current_file_syntax": false
     }
 3. Save as "default_file_type.sublime-settings" into the following location
-    /Packages/User/default_file_type.sublime-settings
+  - /Packages/User/default_file_type.sublime-settings
