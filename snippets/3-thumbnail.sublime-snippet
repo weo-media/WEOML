@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+[[[DIVSTYLE:TProw|[[[DIVSTYLE:TPcol-sm-4|[[[page:${1:###}|[[[DIVSTYLE:TPthumbnail|[[[C:
+***| start thumbnail 1 |***]]][[[PIC:${2:img.jpg}|${3:100%}|||TPcta-responsive|||||]]][[[DIVSTYLE:TPcaption|${4:caption text}]]]]]]|TPthumbnail-link]]] ]]][[[C:***| end col 1 |***]]]
+
+[[[DIVSTYLE:TPcol-sm-4|[[[page:${5:###}|[[[DIVSTYLE:TPthumbnail|[[[C:
+***| start thumbnail 2 |***]]][[[PIC:${6:img.jpg}|${7:100%}|||TPcta-responsive|||||]]][[[DIVSTYLE:TPcaption|${8:caption text}]]]]]]|TPthumbnail-link]]] ]]][[[C:***| end col 2 |***]]]
+
+[[[DIVSTYLE:TPcol-sm-4|[[[page:${9:###}|[[[DIVSTYLE:TPthumbnail|[[[C:
+***| start thumbnail 3 |***]]][[[PIC:${10:img.jpg}|${11:100%}|||TPcta-responsive|||||]]][[[DIVSTYLE:TPcaption|${12:caption text}]]]]]]|TPthumbnail-link]]] ]]][[[C:***| end col 3 |***]]] ]]]
+]]></content>
+	<tabTrigger>snip-3-thumbnail</tabTrigger>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[[[Page-SP:[[[CLIENTEX:ITEM1]]]|${1:Request an Appointment}|TPbtn TPbtn-default$2|${3: opt alt Edition ID}|${4: opt doOpenNewWindow (1 new, 0 default)}|${5: optional title text}|${6: optional target}]]]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>snip-request-appointment-with-item1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

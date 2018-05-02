@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[[[divstyle:TPembed-responsive TPembed-responsive-${1:16by9}${2:4by3}|<iframe class="TPembed-responsive-item" src="${3:https://www.youtube.com/embed/ScMzIvxBSi4}"></iframe>]]]$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>snip-embed-responsive-iframe-video</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
