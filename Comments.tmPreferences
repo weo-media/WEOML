@@ -14,7 +14,7 @@
 				<key>name</key>
 				<string>TM_COMMENT_START</string>
 				<key>value</key>
-				<string>&#91;&#91;&#91;C&#58;&#42;&#42;&#42; </string>
+				<string>&#91;&#91;&#91;C&#58;&#42;&#42;&#42;&#124; </string>
 			</dict>
 			<dict>
 				<key>name</key>
@@ -26,7 +26,7 @@
 				<key>name</key>
 				<string>TM_COMMENT_END</string>
 				<key>value</key>
-				<string> &#42;&#42;&#42;&#93;&#93;&#93;</string>
+				<string> &#124;&#42;&#42;&#42;&#93;&#93;&#93;</string>
 			</dict>
 			<dict>
 				<key>name</key>
