@@ -47,7 +47,7 @@
 { "trigger": "Client:MailState\tWEO Key", "contents": "[[[Client:MailState]]]$0"},
 { "trigger": "Client:MailZip\tWEO Key", "contents": "[[[Client:MailZip]]]$0"},
 { "trigger": "Client:MailCountry\tWEO Key", "contents": "[[[Client:MailCountry]]]$0"},
-{ "trigger": "Client:MainPhone\tWEO Key", "contents": "[[[Client:MainPhon]]]$0"},
+{ "trigger": "Client:MainPhone\tWEO Key", "contents": "[[[Client:MainPhone]]]$0"},
 { "trigger": "Client:MainEmail\tWEO Key", "contents": "[[[Client:MainEmail]]]$0"},
 { "trigger": "Client:DisplayName\tWEO Key", "contents": "[[[Client:DisplayName]]]$0"},
 { "trigger": "Client:OfficePhone\tWEO Key", "contents": "[[[Client:OfficePhone]]]$0"},
