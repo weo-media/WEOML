@@ -40,5 +40,5 @@ Also included...
 3. Save as "default_file_type.sublime-settings" into the following location
   - /Packages/User/default_file_type.sublime-settings
     - to find the user packages folder
-     - Mac OS X: Sublime Text > Preferences > Browse Packages
-     - Windows: Preferences > Browse Packages
+      - Mac OS X: Sublime Text > Preferences > Browse Packages
+      - Windows: Preferences > Browse Packages
