@@ -22,9 +22,12 @@ Also included...
   - RegReplace
 
 ## Auto Completions
-1. Open sublime preferences with ctrl + ' or cmd + '
-2. Add 	"auto_complete_selector": "source, text" within the square brackets. 
-  - (If there are any settings listed already, paste at the bottom of the list)
+1. Open the Sublime Text personal settings file:
+    - Mac OS X: Sublime Text > Preferences > Settings - User
+    - Windows: Preferences > Settings - User
+    - Linux: Preferences > Settings - User
+
+2. Add 	"auto_complete_selector": "source, text", at the top, within the square brackets. 
 
 ## Default File Set Up
 1. Open a new file in sublime.
@@ -36,3 +39,6 @@ Also included...
     }
 3. Save as "default_file_type.sublime-settings" into the following location
   - /Packages/User/default_file_type.sublime-settings
+    - to find the user packages folder
+      - Mac OS X: Sublime Text > Preferences > Browse Packages
+      - Windows: Preferences > Browse Packages
