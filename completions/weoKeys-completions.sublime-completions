@@ -95,7 +95,7 @@
 { "trigger": "LinkList\tWEO Key", "contents": "[[[LinkList:${1: theTitle}|${2: list of links/pages/ids with names comma sep}|${3: optional link style}|${4: optional title style}]]]$0"},
 { "trigger": "LoadCSV\tWEO Key", "contents": "[[[LoadCSV:${1: aRefName}|${2: aCSVDocFileName}|${3: opt hasTitles(1 for yes,default no)}|${4: opt Sort columns names/nums comma sep}|${5: opt Filter conditions comma sep}]]]$0"},
 { "trigger": "MA_StyleAdd\tWEO Key", "contents": "[[[MA_StyleAdd:]]]$0"},
-{ "trigger": "Map\tWEO Key", "contents": "[[[Map:${1: engine(google,mapquest)}|${2: aWidth}|${3: aHeight}|${4: address}|${5: zoom level (1-20 for Google,1-16 for MapQuest)}]]]$0"},
+{ "trigger": "Map\tWEO Key", "contents": "[[[Map:${1: engine(google,mapquest)}|${2: aWidth}|${3: aHeight}|${4: address}|${5: zoom level (1-20 for Google,1-16 for MapQuest)}|${6: optional style/class}]]]$0"},
 { "trigger": "MenuBtn\tWEO Key", "contents": "[[[MenuBtn:${1: btn opt# or CSS base}|${2: btn has text=default, no text=none}|${3: Page Filter (all, top=no subpages, page ID# for child pages)}|${4: expand in place=0 floated=1}|${5: maximum height}]]]$0"},
 { "trigger": "Nav_Bar\tWEO Key", "contents": "[[[Nav_Bar:${1: nav bar type (table, div, UL, ULclean, TableVert, BottomText, BottomClean)}]]]$0"},
 { "trigger": "No-Text\tWEO Key", "contents": "[[[No-Text:${1: optional text}]]]$0"},
