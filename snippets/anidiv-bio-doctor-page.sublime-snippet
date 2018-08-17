@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[[[DivStyle:TProw|[[[divstyle:TPcol-md-5|[[[pic:${1:DocPic}|${2:100%}||${3:center}|${4:TPimgCenter}|${5:Doctor Name} at [[[CLIENTEX:PRACTICENAME]]] ]]] ]]] [[[divstyle:TPcol-md-7|[[[h2:${5:Doctor Name}||${6:margin-top:0px;}]]]${7:One paragraph of text goes here} [[[AniDivClick:${8:Key1-replace with unique number/name}|[[[H3:Click here to read more about Dr.]]]||500]]][[[AniDiv:${8:Key1-replace with unique number/name}||${9:Rest of the text goes here}|500|1]]] ]]] ]]] <hr>$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>snip-anidiv-bio-doctor-team-page</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
