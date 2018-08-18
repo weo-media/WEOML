@@ -8,7 +8,7 @@
     // move cursor 3 to the right (exit weo brackets)
     { "keys": ["super+\\"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/move-cursor-3-right.sublime-macro"} },
     // Set to html weo syntax
-    { "keys": ["control+shift+k"], "command": "set_file_type", "args": {"syntax": "WEOML Syntax.sublime-package/WEOML.sublime-syntax"} },
+    { "keys": ["control+shift+k"], "command": "set_file_type", "args": {"syntax": "Installed Packages/WEOML Syntax.sublime-package/WEOML.sublime-syntax"} },
     // Set to css syntax
     { "keys": ["super+shift+option+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} }
 ]

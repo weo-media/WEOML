@@ -4,19 +4,17 @@
 
 
 
-***| begin item 1 - edit here |***]]]<div class="item active">[[[Pic:${1:background-image.jpg}|100%||||||||]]]<div class="carousel-caption">${2:theCaptionText}</div>${3:otherTextOrStuff}[[[C:***| end item 1 |***]]]</div>[[[C:
+***| begin item 1 - edit here |***]]]<div class="item active">[[[Pic:${1:background-image.jpg}|100%||||||||]]]<div class="carousel-caption">${2:theCaptionText}</div>${3:otherTextOrStuff}</div>[[[C:***| end item 1 |***]]][[[C:
 
 
 
-***| begin item 2 - edit here |***]]]<div class="item">[[[Pic:${4:background-image.jpg}|100%||||||||]]]<div class="carousel-caption">${5:theCaptionText}</div>${6:otherTextOrStuff}[[[C:***| end item 2 |***]]]</div>[[[C:
+***| begin item 2 - edit here |***]]]<div class="item">[[[Pic:${4:background-image.jpg}|100%||||||||]]]<div class="carousel-caption">${5:theCaptionText}</div>${6:otherTextOrStuff}</div>[[[C:***| end item 2 |***]]][[[C:
 
 
 
-***| begin item 3 - edit here |***]]]<div class="item">[[[Pic:${7:background-image.jpg}|100%||||||||]]]<div class="carousel-caption">${8:theCaptionText}</div>${9:otherTextOrStuff}[[[C:
+***| begin item 3 - edit here |***]]]<div class="item">[[[Pic:${7:background-image.jpg}|100%||||||||]]]<div class="carousel-caption">${8:theCaptionText}</div>${9:otherTextOrStuff}</div>[[[C: ***| end item 3 |***]]]
 
-
-
-***| end item 3 |***]]]</div> </div> <a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div></div>[[[C:***| end carousel |***]]]
+</div> <a href="#carousel-example-generic" class="left carousel-control" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a href="#carousel-example-generic" class="right carousel-control" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div></div>[[[C:***| end carousel |***]]]
 ]]></content>
 	<tabTrigger>snip-carousel</tabTrigger>
 </snippet>
