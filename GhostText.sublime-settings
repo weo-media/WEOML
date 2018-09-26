@@ -1,0 +1,16 @@
+{
+    "server_port": "4001",
+    "new_window_on_connect": false,
+    "close_view_on_disconnect": false,
+    "default_syntax": "Markdown.sublime-syntax",
+    "host_to_syntax": {
+    	"weo1.com": "WEOML.sublime-syntax",
+        "weo2.com": "WEOML.sublime-syntax",
+        "sandbox.onlinephpfunctions.com": "PHP.sublime-syntax",
+        "textarea.org": "WEOML.sublime-syntax"
+    },
+    "view_title_prefix": {
+        "connected": "● connected",
+        "disconnected": "☾ disconnected"
+    }
+}
