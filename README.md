@@ -12,14 +12,14 @@ Also included...
   - sublime tutor
   - ghost text
   - bracket highlighter
-  - css format
   - default file type
+  - color highlighter
 
 ### Optional
-  - color highlighter
   - emmet
   - html-css-js-prettify
-  - RegReplace
+  - css format
+  - text pastry
 
 ## Auto Completions
 1. Open the Sublime Text personal settings file:
@@ -27,7 +27,7 @@ Also included...
     - Windows: Preferences > Settings - User
     - Linux: Preferences > Settings - User
 
-2. Add 	"auto_complete_selector": "source, text", at the top, within the square brackets. 
+2. Add 	<code>"auto_complete_selector": "source, text", </code>
 
 ## Default File Set Up
 1. Open a new file in sublime.
