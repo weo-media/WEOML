@@ -25,7 +25,6 @@ Also included...
 1. Open the Sublime Text personal settings file:
     - Mac OS X: Sublime Text > Preferences > Settings - User
     - Windows: Preferences > Settings - User
-    - Linux: Preferences > Settings - User
 
 2. Add 	<code>"auto_complete_selector": "source, text", </code> to the top, inside the curly braces.
 
