@@ -1,14 +1,36 @@
 [    
     // insert weo brackets in place of cursor
-    { "keys": ["alt+space"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/insert-space-before.sublime-macro"} },
+    { "keys": ["alt+space"], "command": "run_macro_file", "args": {"file": "res://Packages/WEOML Syntax.sublime-package/macros/insert-space-before.sublime-macro"} },
     // insert space in front of cursor
-    { "keys": ["shift+space"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/insert-weo-brackets.sublime-macro"} },
+    { "keys": ["shift+space"], "command": "run_macro_file", "args": {"file": "res://Packages/WEOML Syntax.sublime-package/macros/insert-weo-brackets.sublime-macro"} },
     // wrap selection in weo brackets
-    { "keys": ["super+control+w"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/wrap-weo-brackets.sublime-macro"} },
+    { "keys": ["super+control+w"], "command": "run_macro_file", "args": {"file": "res://Packages/WEOML Syntax.sublime-package/macros/wrap-weo-brackets.sublime-macro"} },
     // move cursor 3 to the right (exit weo brackets)
-    { "keys": ["super+\\"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/move-cursor-3-right.sublime-macro"} },
+    { "keys": ["super+\\"], "command": "run_macro_file", "args": {"file": "res://Packages/WEOML Syntax.sublime-package/macros/move-cursor-3-right.sublime-macro"} },
     // Set to html weo syntax
     { "keys": ["super+shift+k"], "command": "set_file_type", "args": {"syntax": "WEOML Syntax.sublime-syntax"} },
     // Set to css syntax
-    { "keys": ["super+shift+option+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} }
+    { "keys": ["super+shift+option+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} },
+    // Delete line
+    { "keys": ["super+k", "super+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+    
+    // Begin bracket highlighter
+    // Toggle Global Enable
+    { "keys": ["ctrl+alt+super+e"], "command": "bh_toggle_enable" },
+    // Go to left bracket
+    { "keys": ["ctrl+alt+super+left"], "command": "bh_async_key", "args": { "no_outside_adj": null, "no_block_mode": null, "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect", "args": {"select": "left"} } } },
+    // Go to right bracket
+    { "keys": ["ctrl+alt+super+right"], "command": "bh_async_key", "args": { "no_outside_adj": null, "no_block_mode": null, "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect", "args": {"select": "right"} } } },
+    // Remove brackets
+    { "keys": ["ctrl+alt+super+r"], "command": "bh_remove_brackets" },
+    // Select text between brackets
+    { "no_outside_adj": null, "keys": ["ctrl+alt+super+s"], "command": "bh_async_key", "args": { "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect" } } },
+    // Select text including brackets
+    { "keys": ["ctrl+alt+super+k"], "command": "bh_async_key", "args": { "no_outside_adj": null, "lines" : true, "plugin": { "type": ["__all__"], "command": "bh_modules.bracketselect", "args": {"always_include_brackets": true} } } },
+    // Expand selection to brackets
+    { "keys": ["super+m"], "command": "expand_selection", "args": {"to": "brackets"} },
+    // Select tag name of HTML/XML tag (both opening name and closing)
+    { "keys": ["ctrl+alt+super+t"], "command": "bh_async_key", "args": { "plugin": { "type": ["cfml", "html", "angle"], "command": "bh_modules.tagnameselect" } } },
+    // Toggle high visibility mode
+    { "keys": ["ctrl+alt+super+v"], "command": "bh_toggle_high_visibility" },
 ]
