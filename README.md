@@ -27,7 +27,7 @@ Also included...
     - Windows: Preferences > Settings - User
     - Linux: Preferences > Settings - User
 
-2. Add 	<code>"auto_complete_selector": "source, text", </code>
+2. Add 	<code>"auto_complete_selector": "source, text", </code> to the top, inside the curly braces.
 
 ## Default File Set Up
 1. Open a new file in sublime.
