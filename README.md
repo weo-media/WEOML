@@ -26,7 +26,11 @@ Also included...
     - Mac OS X: Sublime Text > Preferences > Settings - User
     - Windows: Preferences > Settings - User
 
-2. Add 	<code>"auto_complete_selector": "source, text", </code> to the top, inside the curly braces.
+2. Add 	<code>	"auto_complete": true,
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_cycle": true,
+	"auto_complete_selector": "source, text",
+	"auto_complete_with_fields": true,</code> to the top, inside the curly braces.
 
 ## Default File Set Up
 1. Open a new file in sublime.
