@@ -32,11 +32,11 @@ Also included...
 ## Default File Set Up
 1. Open a new file in sublime.
 2. paste the following:
-    {
+    <code>{
       "default_new_file_syntax": "WEOML.sublime-syntax",
       "default_new_window_syntax": "WEOML.sublime-syntax",
       "use_current_file_syntax": false
-    }
+    }</code>
 3. Save as "default_file_type.sublime-settings" into the following location
   - /Packages/User/default_file_type.sublime-settings
     - to find the user packages folder
