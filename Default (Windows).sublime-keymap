@@ -4,13 +4,13 @@
     // insert space in front of cursor
     { "keys": ["shift+space"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/insert-weo-brackets.sublime-macro"} },
     // wrap selection in weo brackets
-    { "keys": ["super+control+w"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/wrap-weo-brackets.sublime-macro"} },
+    { "keys": ["alt+ctrl+w"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/wrap-weo-brackets.sublime-macro"} },
     // move cursor 3 to the right (exit weo brackets)
     { "keys": ["super+\\"], "command": "run_macro_file", "args": {"file": "res://WEOML Syntax.sublime-package/macros/move-cursor-3-right.sublime-macro"} },
     // Set to html weo syntax
-    { "keys": ["control+shift+k"], "command": "set_file_type", "args": {"syntax": "WEOML.sublime-syntax"} },
+    { "keys": ["ctrl+shift+k"], "command": "set_file_type", "args": {"syntax": "WEOML.sublime-syntax"} },
     // Set to css syntax
-    { "keys": ["super+shift+option+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} },
+    { "keys": ["ctrl+shift+alt+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} },
     // Expand selection to brackets
     { "keys": ["ctrl+m"], "command": "expand_selection", "args": {"to": "brackets"} }
 ]
