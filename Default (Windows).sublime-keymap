@@ -12,5 +12,5 @@
     // Set to css syntax
     { "keys": ["super+shift+option+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} },
     // Expand selection to brackets
-    { "keys": ["control+m"], "command": "expand_selection", "args": {"to": "brackets"} }
+    { "keys": ["ctrl+m"], "command": "expand_selection", "args": {"to": "brackets"} }
 ]
