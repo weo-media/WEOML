@@ -10,5 +10,7 @@
     // Set to html weo syntax
     { "keys": ["super+shift+k"], "command": "set_file_type", "args": {"syntax": "WEOML Syntax.sublime-syntax"} },
     // Set to css syntax
-    { "keys": ["super+shift+option+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} }
+    { "keys": ["super+shift+option+c"], "command": "set_file_type", "args": {"syntax": "Packages/CSS/CSS.sublime-syntax"} },
+    // Expand selection to brackets
+    { "keys": ["super+m"], "command": "expand_selection", "args": {"to": "brackets"} }
 ]
