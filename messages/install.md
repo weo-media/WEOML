@@ -1,3 +1,10 @@
+******************Welcome to******************
+`\  \    / _/__/ __ \  |  \/  |___  | |_| __  The`
+` \  \/\/ |  __||  | | |      / _ \_| | ||_ \ Best`
+`  \      |  __||__| | | |\/| | __/ _ | / _ | Dental`
+`   \_/\_/|____|____/  |_|  |_\___\__.|_\__.| Marketing`
+
+You've just installed 
 # WEOML Syntax
 It's WEO keys + HTML = COLORS! We've taken HTML syntax and supercharged it to recognize WEO keys in Sublime Text 3.
 This package provides syntax highlighting to proprietary WEO Media "Keys" in addition to basic HTML syntax highlighting. It is derived from Sublime's standard HTML highlighting. 
@@ -26,15 +33,15 @@ Also included...
     - Mac OS X: Sublime Text > Preferences > Settings - User
     - Windows: Preferences > Settings - User
 
-2. Add the following code on a new line after the first curly brace `{`	<code>	
+2. Add the following code on a new line after the first curly brace (`{`) <code>  
 
-  "auto_complete": true,
-	"auto_complete_commit_on_tab": true,
-	"auto_complete_cycle": true,
-	"auto_complete_selector": "source, text",
-	"auto_complete_with_fields": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true, 
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_cycle": true,
+    "auto_complete_selector": "source, text",
+    "auto_complete_with_fields": true,
+    "tab_size": 2,
+    "translate_tabs_to_spaces": true, 
 
   </code> 
 
