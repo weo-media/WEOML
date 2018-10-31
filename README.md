@@ -26,23 +26,27 @@ Also included...
     - Mac OS X: Sublime Text > Preferences > Settings - User
     - Windows: Preferences > Settings - User
 
-2. Add the following code on a new line after the first curly brace `{`	`
+2. Add the following code on a new line after the first curly brace `{`	:
+`
   "auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
 	"auto_complete_selector": "source, text",
 	"auto_complete_with_fields": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true, `
+	"translate_tabs_to_spaces": true, 
+`
 
 ## Default File Set Up
 1. Open a new file in sublime.
-2. paste the following: `
+2. paste the following: 
+`
   {
   "default_new_file_syntax": "WEOML.sublime-syntax",
   "default_new_window_syntax": "WEOML.sublime-syntax",
   "use_current_file_syntax": false
-  }`
+  }
+`
       
 3. Save as "default_file_type.sublime-settings" into the following location
   - /Packages/User/default_file_type.sublime-settings
