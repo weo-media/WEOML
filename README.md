@@ -26,7 +26,7 @@ Also included...
     - Mac OS X: Sublime Text > Preferences > Settings - User
     - Windows: Preferences > Settings - User
 
-2. Add the following code on a new line after the first curly brace `{`	:
+2. Add the following code on a new line after the first curly brace (`{`)	:
 `
   "auto_complete": true,
 	"auto_complete_commit_on_tab": true,
