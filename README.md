@@ -26,7 +26,7 @@ Also included...
     - Mac OS X: Sublime Text > Preferences > Settings - User
     - Windows: Preferences > Settings - User
 
-2. Add the following code on a new line after the first curly brace (`{`)	:<br><br>
+2. Add the following code on a new line after the first curly brace (`{`)	:<br>
 
   `"auto_complete": true,`<br>
 	`"auto_complete_commit_on_tab": true,`<br>
@@ -39,7 +39,7 @@ Also included...
 
 ## Default File Set Up
 1. Open a new file in sublime.
-2. paste the following:<br><br>
+2. paste the following:<br>
 
   `{`<br>
   `"default_new_file_syntax": "WEOML.sublime-syntax",`<br>
