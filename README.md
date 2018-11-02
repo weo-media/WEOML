@@ -27,26 +27,26 @@ Also included...
     - Windows: Preferences > Settings - User
 
 2. Add the following code on a new line after the first curly brace (`{`)	:<br><br>
-`
-  "auto_complete": true,<br>
-	"auto_complete_commit_on_tab": true,<br>
-	"auto_complete_cycle": true,<br>
-	"auto_complete_selector": "source, text",<br>
-	"auto_complete_with_fields": true,<br>
-	"tab_size": 2,<br>
-	"translate_tabs_to_spaces": true,
-`
+
+  `"auto_complete": true,`<br>
+	`"auto_complete_commit_on_tab": true,`<br>
+	`"auto_complete_cycle": true,`<br>
+	`"auto_complete_selector": "source, text",`<br>
+	`"auto_complete_with_fields": true,`<br>
+	`"tab_size": 2,`<br>
+	`"translate_tabs_to_spaces": true,`
+
 
 ## Default File Set Up
 1. Open a new file in sublime.
 2. paste the following:<br><br>
-`
-  {<br>
-  "default_new_file_syntax": "WEOML.sublime-syntax",<br>
-  "default_new_window_syntax": "WEOML.sublime-syntax",<br>
-  "use_current_file_syntax": false<br>
-  }
-`
+
+  `{`<br>
+  `"default_new_file_syntax": "WEOML.sublime-syntax",`<br>
+  `"default_new_window_syntax": "WEOML.sublime-syntax",`<br>
+  `"use_current_file_syntax": false`<br>
+  `}`
+
       
 3. Save as "default_file_type.sublime-settings" into the following location
   - /Packages/User/default_file_type.sublime-settings
