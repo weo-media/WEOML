@@ -21,19 +21,20 @@ Also included...
   - bracket highlighter
   - default file type
   - color highlighter
+  - text pastry
 
 ### Optional
   - emmet
   - html-css-js-prettify
   - css format
-  - text pastry
 
 ## Auto Completions
 1. Open the Sublime Text personal settings file:
     - Mac OS X: Sublime Text > Preferences > Settings - User
     - Windows: Preferences > Settings - User
 
-2. Add the following code on a new line after the first curly brace (`{`) <code>  
+2. Add the following code on a new line after the first curly brace (`{`)   
+
 
     "auto_complete": true,
     "auto_complete_commit_on_tab": true,
@@ -43,12 +44,12 @@ Also included...
     "tab_size": 2,
     "translate_tabs_to_spaces": true, 
 
-  </code> 
+ 
 
 ## Default File Set Up
 1. Open a new file in sublime.
 2. paste the following:
-    <code>
+ 
 
       {
       "default_new_file_syntax": "WEOML.sublime-syntax",
@@ -56,7 +57,8 @@ Also included...
       "use_current_file_syntax": false
       }
       
-    </code>
+      
+
 3. Save as "default_file_type.sublime-settings" into the following location
   - /Packages/User/default_file_type.sublime-settings
     - to find the user packages folder
