@@ -28,13 +28,13 @@ Also included...
 
 2. Add the following code on a new line after the first curly brace (`{`)	:<br>
 
-`  "auto_complete": true,`<br>
-`  "auto_complete_commit_on_tab": true,`<br>
-`  "auto_complete_cycle": true,`<br>
-`  "auto_complete_selector": "source, text",`<br>
-`  "auto_complete_with_fields": true,`<br>
-`  "tab_size": 2,`<br>
-`  "translate_tabs_to_spaces": true,`
+  `"auto_complete": true,`<br>
+  `"auto_complete_commit_on_tab": true,`<br>
+  `"auto_complete_cycle": true,`<br>
+  `"auto_complete_selector": "source, text",`<br>
+  `"auto_complete_with_fields": true,`<br>
+  `"tab_size": 2,`<br>
+  `"translate_tabs_to_spaces": true,`
 
 
 ## Default File Set Up
