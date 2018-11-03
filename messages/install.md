@@ -4,7 +4,7 @@
 `  \      |  __||__| | | |\/| | __/ _ | / _ | Dental`
 `   \_/\_/|____|____/  |_|  |_\___\__.|_\__.| Marketing`
 
-You've just installed 
+You've just installed the... 
 # WEOML Syntax
 It's WEO keys + HTML = COLORS! We've taken HTML syntax and supercharged it to recognize WEO keys in Sublime Text 3.
 This package provides syntax highlighting to proprietary WEO Media "Keys" in addition to basic HTML syntax highlighting. It is derived from Sublime's standard HTML highlighting. 
@@ -12,8 +12,9 @@ This package provides syntax highlighting to proprietary WEO Media "Keys" in add
 ## Other Bits
 Also included...
   - Auto completions of all the WEO keys with corresponding parameters
-  - Keyboard shortcuts for manipulating WEO brackets
   - Snippets for commonly used code
+  - DearDoctor Video IDs
+  - completions for bootstrap-tp classes
 
 ## Other Packages To Install
   - sublime tutor
@@ -30,8 +31,8 @@ Also included...
 
 ## Auto Completions
 1. Open the Sublime Text personal settings file:
-    - Mac OS X: Sublime Text > Preferences > Settings - User
-    - Windows: Preferences > Settings - User
+    - Mac OS X: Sublime Text > Preferences > Settings
+    - Windows: Preferences > Settings
 
 2. Add the following code on a new line after the first curly brace (`{`)   
 
@@ -51,13 +52,13 @@ Also included...
 2. paste the following:
  
 
-      {
-      "default_new_file_syntax": "WEOML.sublime-syntax",
-      "default_new_window_syntax": "WEOML.sublime-syntax",
-      "use_current_file_syntax": false
-      }
+    {
+    "default_new_file_syntax": "WEOML.sublime-syntax",
+    "default_new_window_syntax": "WEOML.sublime-syntax",
+    "use_current_file_syntax": false
+    }
       
-      
+
 
 3. Save as "default_file_type.sublime-settings" into the following location
   - /Packages/User/default_file_type.sublime-settings

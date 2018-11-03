@@ -216,6 +216,7 @@
 { "trigger": "TPcol-lg-offset-11\tTPbootstrap", "contents":"TPcol-lg-offset-11"},
 { "trigger": "TPcol-lg-12\tTPbootstrap", "contents":"TPcol-lg-12"},
 { "trigger": "TPcol-lg-offset-12\tTPbootstrap", "contents":"TPcol-lg-offset-12"},
+{ "trigger": "TPimg-responsive\tTPbootstrap", "contents":"TPimg-responsive"},
 { "trigger": "TPbtn-lg\tTPbootstrap", "contents":"TPbtn-lg"},
 { "trigger": "TPcaret\tTPbootstrap", "contents":"TPcaret"},
 { "trigger": "TPbtn-group-vertical\tTPbootstrap", "contents":"TPbtn-group-vertical"},

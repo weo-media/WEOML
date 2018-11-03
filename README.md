@@ -5,8 +5,9 @@ This package provides syntax highlighting to proprietary WEO Media "Keys" in add
 ## Other Bits
 Also included...
   - Auto completions of all the WEO keys with corresponding parameters
-  - Keyboard shortcuts for manipulating WEO brackets
   - Snippets for commonly used code
+  - DearDoctor Video IDs
+  - completions for bootstrap-tp classes
 
 ## Other Packages To Install
   - sublime tutor
@@ -14,17 +15,17 @@ Also included...
   - bracket highlighter
   - default file type
   - color highlighter
+  - text pastry
 
 ### Optional
   - emmet
   - html-css-js-prettify
   - css format
-  - text pastry
 
 ## Auto Completions
 1. Open the Sublime Text personal settings file:
-    - Mac OS X: Sublime Text > Preferences > Settings - User
-    - Windows: Preferences > Settings - User
+    - Mac OS X: Sublime Text > Preferences > Settings
+    - Windows: Preferences > Settings
 
 2. Add the following code on a new line after the first curly brace (`{`)	:<br>
 
