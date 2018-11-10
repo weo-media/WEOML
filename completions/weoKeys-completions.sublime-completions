@@ -275,7 +275,7 @@
 { "trigger": "LoadCSV\tWEO Key", "contents": "[[[LoadCSV:${1: aRefName}|${2: aCSVDocFileName}|${3: opt hasTitles(1 for yes,default no)}|${4: opt Sort columns names/nums comma sep}|${5: opt Filter conditions comma sep}]]]$0"},
 { "trigger": "MA_StyleAdd\tWEO Key", "contents": "[[[MA_StyleAdd:]]]$0"},
 { "trigger": "Map\tWEO Key", "contents": "[[[Map:${1: engine(google,mapquest)}|${2: aWidth}|${3: aHeight}|${4: address}|${5: zoom level (1-20 for Google,1-16 for MapQuest)}|${6: optional style/class}]]]$0"},
-{ "trigger": "MenuBtn\tWEO Key", "contents": "[[[MenuBtn:${1: btn opt# or CSS base}|${2: btn has text=default, no text=none}|${3: Page Filter (all, top=no subpages, page ID# for child pages)}|${4: expand in place=0 floated=1}|${5: maximum height}]]]$0"},
+{ "trigger": "MenuBtn\tWEO Key", "contents": "[[[MenuBtn:${1: btn opt# or CSS base}|${2: btn has text=default, no text=none}|${3: Page Filter (all, top=no subpages, page ID# for child pages)}|${4: expand in place=0 expand in place=1 floated=2 expand in place=3}|${5: maximum height}]]]$0"},
 { "trigger": "Nav_Bar\tWEO Key", "contents": "[[[Nav_Bar:${1: nav bar type (table, div, UL, ULclean, TableVert, BottomText, BottomClean)}]]]$0"},
 { "trigger": "No-Text\tWEO Key", "contents": "[[[No-Text:${1: optional text}]]]$0"},
 { "trigger": "No-Title\tWEO Key", "contents": "[[[No-Title:${1: optional title text}]]]$0"},
@@ -349,6 +349,7 @@
 { "trigger": "Vcard\tWEO Key", "contents": "[[[Vcard:${1: opt aClassorStyle}|${2: opt aDisplayText}|${3: FirstName}|${4: LastName}|${5: Phone}|${6: MobilePhone}|${7: Email}|${8: StreetAddress}|${9: City}|${10: State}|${11: Zip}|${12: Country}|${13: Gender(M/F)}|${14: DOB}|${15: Note}]]]$0"},
 { "trigger": "Video\tWEO Key", "contents": "[[[Video:${1: Video file, URL or YouTube ID}|${2: Width}|${3: Height}]]]$0"},
 { "trigger": "WebLinks\tWEO Key", "contents": "[[[WebLinks:${1: show/hide text}|${2: large/small icons}|${3: columns (1-4)}|${4: optional table box class/style}]]]$0"},
+{ "trigger": "WEBSITE_NAVIGATION_ULBOOTSTRAP\tWEO Core", "contents": "[[[WEBSITE_NAVIGATION_ULBOOTSTRAP]]]$0"},
 { "trigger": "Widget\tWEO Key", "contents": "[[[Widget:${1: Company(GURU,DEMANDFORCE,SHARETHIS,LIGHTHOUSE,ZOCDOC,YELP,RATEADENTIST,LOCALMED,PINTEREST,BESTLOCALREVIEWS,CASEY)}|${2: param1}|${3: param2}|${4: param3}|${5: param4}|${6: param5}|${7: param6}"}
 
   ]
