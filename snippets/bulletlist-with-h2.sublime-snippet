@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+[[[H2:Read more about $1||]]][[[DivStyle:padding-left:24px;|[[[BulletList:[[[Page:#####|Page Title|]]]
+;[[[Page:#####|Page Title|]]]
+;[[[Page:#####|Page Title|]]]|||]]] ]]]$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>snip-bulletlist-with-h2</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-[[[ANIDIVCLICK:${1: adivid }|[[[class:${2:TParticle font-weight: bold;}|${3:&#9658;}${4:&#187;} ${5: Title }|${6: opt-class/style }|${7:opt-animation-speed}]]]|]]][[[ANIDIV:$1|${8:TParticle}|[[[A:$5|${9:111111}||2|0|1]]]|${10: Ani speed(milli) }|${11: opt close on click (1 default)}]]]
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ani</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html.weo</scope>
-</snippet>

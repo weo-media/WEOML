@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-[[[Client:StreetAddress1]]]${1:<br>}[[[Client:StreetCity]]], [[[Client:StreetState]]] [[[Client:StreetZip]]]$0
+[[[Client:StreetAddress1]]] $1[[[Client:StreetAddress2]]] $2[[[Client:StreetCity]]], [[[Client:StreetState]]] [[[Client:StreetZip]]]$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>client-address</tabTrigger>

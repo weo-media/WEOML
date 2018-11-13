@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-[[[ANIDIVCLICK:${1: adivid }|[[[class:TParticle font-weight: bold;|[[[DivStyle:TPaniDivBtn|&#187; ${2: Title }]]]||]]]|]]][[[ANIDIV:$1|TParticle|[[[A:$2|${3: 111111 }||2|0|1]]]||0]]]
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ani2</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html.weo</scope>
-</snippet>

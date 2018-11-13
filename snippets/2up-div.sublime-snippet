@@ -1,16 +1,13 @@
 <snippet>
 	<content><![CDATA[
-[[[C:
-*** START ROW (2 ITEMS) ***]]][[[DIVSTYLE:TProw|[[[C:
+[[[DIVSTYLE:TProw|[[[DIVSTYLE:TPcol-md-6|${1: }]]][[[C:***| end col 1 |***]]]
+[[[DIVSTYLE:TPcol-md-6|${2: }]]][[[C:***| end col 2 |***]]]
+]]][[[C:***| END ROW |***]]]
 
-*** ITEM 1 ***]]][[[DIVSTYLE:TPcol-${1:lg}-6|${2}]]][[[C:
-
-*** ITEM 2 ***]]][[[DIVSTYLE:TPcol-${1:lg}-6|${3}]]]]]][[[C:
-
-*** END ROW ***]]]
+$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>2div</tabTrigger>
+	<tabTrigger>snip-2-div</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
