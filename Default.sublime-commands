@@ -1,0 +1,10 @@
+[
+    // Show install message again
+    {
+        "caption": "WEOML: Install Message",
+        "command": "weoml_install_doc",
+        "args": {
+            "page": "${packages}/WEOML Syntax/messages/install.md"
+        }
+    }
+]
