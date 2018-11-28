@@ -307,6 +307,7 @@
 { "trigger": "TPtext-uppercase\tTPbootstrap", "contents":"TPtext-uppercase"},
 { "trigger": "TPtext-lowercase\tTPbootstrap", "contents":"TPtext-lowercase"},
 { "trigger": "TPtext-capitalize\tTPbootstrap", "contents":"TPtext-capitalize"},
+{ "trigger": "TPblockquote-reverse\tTPbootstrap", "contents":"TPblockquote-reverse"},
 { "trigger": "TPhidden\tTPbootstrap", "contents":"TPhidden"},
 { "trigger": "TPvisible-xs\tTPbootstrap", "contents":"TPvisible-xs"},
 { "trigger": "TPvisible-xs-block\tTPbootstrap", "contents":"TPvisible-xs-block"},
