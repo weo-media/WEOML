@@ -54,7 +54,8 @@ contexts:
         0: punctuation.definition.comment.html
       push:
         - meta_scope: comment.block.html
-        - match: '(([^\*]*\*{3}\]{3})|([^\]]*\]{3}))'
+        # - match: '(([^\*]*\*{3}\]{3})|([^\]]*\]{3}))'
+        - match: '([^\*]*\*{3}\]{3})'
           pop: true
     - match: '(\[{3})(((?i:A|AniDiv|AniDivClick|Article|Block1|Block2|Block3|BlogList|Border-radius|Btn|BulletList|Calendar|CalItem|Char|Choose|Class|Client|Client_Dir|ClientEx|DivARow|DivARowArts|DivStyle|Doc|DropDown|EditionLink|EFSK|Email|EmailFormEnd|EmailFormField|EmailFormStart|EmailFormText|EnlArticle|Fld|FldValues|FloatBox|FloatCenter|FloatRight|ForEach|Func|H1|H2|H3|H4|HR|If|ImageList|ImageSearchList|ImgBtn|InARow|Link|LinkList|LoadCSV|MA_StyleAdd|Map|MenuBtn|Nav_Bar|No-Text|No-Title|NOW|NumList|Opacity|Page|Page_ID|Page_Name|Page-SP|Page-SP-URL|Page-URL|Pic|PopMenu|RandomImage|Request|Review|Reviews|RoundCorners|SchemaAddress|Script|SEO|Since|Slider|SlideShow|SMBtn|SMLinks|Stamp|Style|Subtitle|Tags|Template_ID|Template_Name|Template_Type|TermsForm|TextImgBtn|Title|Vcard|Video|WebLinks|Widget)\b)(:))'
       captures:
