@@ -4,5 +4,10 @@
 `  \      |  __||__| | | |\/| | __/ _ | / _ | Dental`
 `   \_/\_/|____|____/  |_|  |_\___\__.|_\__.| Marketing`
 
-fixed support for weo macros.
-for keyboard shortcuts view Tools > Macros > WEOML Syntax > macros 
+Added new keys BlockCopy, PagesBar, and PicsBar to syntax highlighting and completions. 
+
+PHONE key and ITEM key must be capitalized in order for syntax highlighting to occur.
+
+Added new completion for Pic key called Pic-Quick. It comes pre-filled for content images.
+
+ex. [[[Pic:PicName|400||right|TPimg-responsive TPimgRight|alt text]]]
