@@ -29,12 +29,17 @@ contexts:
           pop: true
         - include: tag-stuff
     # weo keys
-    - match: '(\[{3}((?i:PHONE|Client_Dir|Page_Name|Page_ID|Request|Template_Name|Template_ID|Template_Type)\b)\]{3})'
+    - match: '(\[{3}((PHONE|BLOCKNUM)\b)\]{3})'
       captures:
         1: entity.name.tag
         2: constant.language
       pop: true
-    - match: '(\[{3}((?i:ITEM))([0-9]+)\]{3})'
+    - match: '(\[{3}((?i:Client_Dir|Page_Name|Page_ID|Request|Template_Name|Template_ID|Template_Type)\b)\]{3})'
+      captures:
+        1: entity.name.tag
+        2: constant.language
+      pop: true
+    - match: '(\[{3}(ITEM)([0-9]+)\]{3})'
       captures:
         1: variable.parameter
         # 1: constant.other
@@ -57,7 +62,7 @@ contexts:
         # - match: '(([^\*]*\*{3}\]{3})|([^\]]*\]{3}))'
         - match: '([^\*]*\*{3}\]{3})'
           pop: true
-    - match: '(\[{3})(((?i:A|AniDiv|AniDivClick|Article|Block1|Block2|Block3|BlogList|Border-radius|Btn|BulletList|Calendar|CalItem|Char|Choose|Class|Client|Client_Dir|ClientEx|DivARow|DivARowArts|DivStyle|Doc|DropDown|EditionLink|EFSK|Email|EmailFormEnd|EmailFormField|EmailFormStart|EmailFormText|EnlArticle|Fld|FldValues|FloatBox|FloatCenter|FloatRight|ForEach|Func|H1|H2|H3|H4|HR|If|ImageList|ImageSearchList|ImgBtn|InARow|Link|LinkList|LoadCSV|MA_StyleAdd|Map|MenuBtn|Nav_Bar|No-Text|No-Title|NOW|NumList|Opacity|Page|Page_ID|Page_Name|Page-SP|Page-SP-URL|Page-URL|Pic|PopMenu|RandomImage|Request|Review|Reviews|RoundCorners|SchemaAddress|Script|SEO|Since|Slider|SlideShow|SMBtn|SMLinks|Stamp|Style|Subtitle|Tags|Template_ID|Template_Name|Template_Type|TermsForm|TextImgBtn|Title|Vcard|Video|WebLinks|Widget)\b)(:))'
+    - match: '(\[{3})((?i:A|AniDiv|AniDivClick|Article|Block1|Block2|Block3|BlockCopy|BlogList|Border-radius|Btn|BulletList|Calendar|CalItem|Char|Choose|Class|Client|Client_Dir|ClientEx|DivARow|DivARowArts|DivStyle|Doc|DropDown|EditionLink|EFSK|Email|EmailFormEnd|EmailFormField|EmailFormStart|EmailFormText|EnlArticle|Fld|FldValues|FloatBox|FloatCenter|FloatRight|ForEach|Func|H1|H2|H3|H4|HR|If|ImageList|ImageSearchList|ImgBtn|InARow|Link|LinkList|LoadCSV|MA_StyleAdd|Map|MenuBtn|Nav_Bar|No-Text|No-Title|NOW|NumList|Opacity|Page|Page_ID|Page_Name|Page-SP|Page-SP-URL|Page-URL|PagesBar|Pic|PicsBar|PopMenu|RandomImage|Request|Review|Reviews|RoundCorners|SchemaAddress|Script|SEO|Since|Slider|SlideShow|SMBtn|SMLinks|Stamp|Style|Subtitle|Tags|Template_ID|Template_Name|Template_Type|TermsForm|TextImgBtn|Title|Vcard|Video|WebLinks|Widget)\b(:))'
       captures:
         1: entity.name.tag
         2: string.tag
@@ -75,7 +80,7 @@ contexts:
     - match: '(TP)([\w\-\_]+)[^\s\|\]]'
       captures:
         0: entity.name.class
-    - match: ';'
+    - match: '(;|\(|\)|,)'
       captures:
         0: entity.other.attribute-name
     - match: (<\?)(xml)
