@@ -2,7 +2,7 @@
 	<content><![CDATA[
 [[[C:
 
-*** ${1:COMMENT} *** ]]]
+*** ${1:COMMENT} ***]]]
 $0]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>/</tabTrigger>
