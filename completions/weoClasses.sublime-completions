@@ -31,6 +31,7 @@
 { "trigger": "TPaniBannerBand\tWEO Classes", "contents":"TPaniBannerBand"},
 { "trigger": "TPartBox\tWEO Classes", "contents":"TPartBox"},
 { "trigger": "TPBandCol\tWEO Classes", "contents":"TPBandCol"},
+{ "trigger": "TPBandCol-fluid\tWEO Classes", "contents":"TPBandCol-fluid"},
 { "trigger": "TProw\tWEO Classes", "contents":"TProw"},
 { "trigger": "TPBand\tWEO Classes", "contents":"TPBand"},
 { "trigger": "TPbw\tWEO Classes", "contents":"TPbw"},
