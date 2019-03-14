@@ -51,7 +51,7 @@ contexts:
       captures:
         1: constant.numeric
         2: entity.other.attribute-name
-    - match: '\.(jpg|png|pdf|eot|wof|ttf|svg|doc|zip)'
+    - match: '\.(jpg|png|pdf|eot|woff|ttf|svg|doc|zip)'
       captures:
         0: constant.numeric
     - match: '\[{3}[cC]:'
