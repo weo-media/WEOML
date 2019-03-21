@@ -5,6 +5,7 @@
   [ 
 
 { "trigger": "A\tWEO Key", "contents": "[[[A:${1: optional comment}|${2: articleID/articleName}|${3: optional width }|${4: opt titleDisplay(0 norm, 1 bold, 2 none)}|${5: opt imageDisplay (0 normal, 1 suppess)}|${6: opt No ArtBox (1 suppress)}]]]$0"},
+{ "trigger": "Ani\tWEO Key", "contents": "[[[Ani:${1: Set}${2: set-name}${3: onceOn}${4: fadeUp}${5: del0}${6: dur600}${7:seq200}|${8:content}]]]$0"},
 { "trigger": "AniDiv\tWEO Key", "contents": "[[[AniDiv:${1: aDivID}|${2: opt class/style}|${3: content}|${4: animation speed}|${5: opt close on click 0,1 default}|${6: opt doFloat (1 float)}]]]$0"},
 { "trigger": "AniDivClick\tWEO Key", "contents": "[[[AniDivClick:${1: aDivID}|${2: content}|${3: opt class/style}|${4: opt animation speed}]]]$0"},
 { "trigger": "Article\tWEO Key", "contents": "[[[Article:${1: articleID/articleName}|${2: optional width }|${3: opt titleDisplay(0 norm, 1 bold, 2 none)}|${4: opt imageDisplay (0 normal, 1 suppess)}|${5: opt No ArtBox (1 suppress)}]]]$0"},
@@ -252,6 +253,7 @@
 { "trigger": "dd-Prevención-de-Caries-en-los-Niños-Preventing-Cavities-in-Kids\tVid ID", "contents": "avuhf5235k"},
 { "trigger": "DivARow\tWEO Key", "contents": "[[[DivARow:${1: optional class/style}|${2: item1}|${3: item2}|${4: item3}|${5: item4}|${6: item5}|${7: item6}|${8: item7}|${9: item8}|${10: item9}|${11: item10}|${12: item11}|${13: item12}|${14: item13}|${15: item14}|${16: item15}|${17: item16}|${18: item17}|${19: item18}|${20: item19}|${21: item20}|${22: item21}|${23: item22}|${24: item23}|${25: item24}]]]$0"},
 { "trigger": "DivARowArts\tWEO Key", "contents": "[[[DivARowArts:${1: optional class/style}|${2: item1}|${3: item2}|${4: item3}|${5: item4}|${6: item5}|${7: item6}|${8: item7}|${9: item8}|${10: item9}|${11: item10}|${12: item11}|${13: item12}|${14: item13}|${15: item14}|${16: item15}|${17: item16}|${18: item17}|${19: item18}|${20: item19}|${21: item20}|${22: item21}|${23: item22}|${24: item23}|${25: item24}]]]$0"},
+{ "trigger": "D\tWEO Key", "contents": "[[[D:${1: optional style/class name}|${2: the text}]]]$0"},
 { "trigger": "DivStyle\tWEO Key", "contents": "[[[DivStyle:${1: optional style/class name}|${2: the text}]]]$0"},
 { "trigger": "Doc\tWEO Key", "contents": "[[[Doc:${1: documentName}|${2: optional link text}|${3: optional style/class}]]]$0"},
 { "trigger": "DropDown\tWEO Key", "contents": "[[[DropDown:${1: aControlName}|${2: displayValues comma sep}|${3: opt values comma sep}|${4: do allow none =1}|${5: optional selected value}|${6: optional class/style}|${7: opt None text}]]]$0"},

@@ -34,7 +34,7 @@ contexts:
         1: entity.name.tag
         2: constant.language
       pop: true
-    - match: '(\[{3}((?i:Client_Dir|CLIENT_DIR_FULL|CLIENT_DIR_REL|CLIENT_DOCS|CLIENTID|CLIENT_IMG|CLIENT_NUM|DOCS|IMG|Page_Name|Page_ID|Request|Template_Name|Template_ID|Template_Type)\b)\]{3})'
+    - match: '(\[{3}((?i:Client_Dir|CLIENT_DIR_FULL|CLIENT_DIR_REL|CLIENT_DOCS|CLIENTID|CLIENT_IMG|CLIENT_NUM|DOCS|EmailFormEnd|IMG|Page_Name|Page_ID|Request|Template_Name|Template_ID|Template_Type)\b)\]{3})'
       captures:
         1: entity.name.tag
         2: constant.language
@@ -62,7 +62,7 @@ contexts:
         # - match: '(([^\*]*\*{3}\]{3})|([^\]]*\]{3}))'
         - match: '([^\*]*\*{3}\]{3})'
           pop: true
-    - match: '(\[{3})((?i:A|AniDiv|AniDivClick|Article|Block1|Block2|Block3|BlockCopy|BlogList|Border-radius|Btn|BulletList|Calendar|CalItem|Char|Choose|Class|Client|Client_Dir|ClientEx|DivARow|DivARowArts|DivStyle|Doc|DOCS|DropDown|EditionLink|EFSK|Email|EmailFormEnd|EmailFormField|EmailFormStart|EmailFormText|EnlArticle|Fld|FldValues|FloatBox|FloatCenter|FloatRight|ForEach|Func|H1|H2|H3|H4|HR|If|ImageList|ImageSearchList|IMG|ImgBtn|InARow|Link|LinkList|LoadCSV|MA_StyleAdd|Map|MenuBtn|Nav_Bar|No-Text|No-Title|NOW|NumList|Opacity|P-IMG|Page|Page-SP|Page-SP-URL|Page-URL|Page_ID|Page_Name|PagesBar|Pic|PicsBar|PopMenu|PTR-IMG|RandomImage|Request|Review|Reviews|RoundCorners|SchemaAddress|Script|SEO|Since|Slider|SlideShow|SMBtn|SMLinks|Stamp|Style|Subtitle|SYS-IMG|Tags|Template_ID|Template_Name|Template_Type|TermsForm|TextImgBtn|Title|Vcard|Video|WebLinks|Widget)\b(:))'
+    - match: '(\[{3})((?i:A|Ani|AniDiv|AniDivClick|Article|Block1|Block2|Block3|BlockCopy|BlogList|Border-radius|Btn|BulletList|Calendar|CalItem|Char|Choose|Class|Client|Client_Dir|ClientEx|D|DivARow|DivARowArts|DivStyle|Doc|DOCS|DropDown|EditionLink|EFSK|Email|EmailFormEnd|EmailFormField|EmailFormStart|EmailFormText|EnlArticle|Fld|FldValues|FloatBox|FloatCenter|FloatRight|ForEach|Func|H1|H2|H3|H4|HR|If|ImageList|ImageSearchList|IMG|ImgBtn|InARow|Link|LinkList|LoadCSV|MA_StyleAdd|Map|MenuBtn|Nav_Bar|No-Text|No-Title|NOW|NumList|Opacity|P-IMG|Page|Page-SP|Page-SP-URL|Page-URL|Page_ID|Page_Name|PagesBar|Pic|PicsBar|PopMenu|PTR-IMG|RandomImage|Request|Review|Reviews|RoundCorners|SchemaAddress|Script|SEO|Since|Slider|SlideShow|SMBtn|SMLinks|Stamp|Style|Subtitle|SYS-IMG|Tags|Template_ID|Template_Name|Template_Type|TermsForm|TextImgBtn|Title|Vcard|Video|WebLinks|Widget)\b(:))'
       captures:
         1: entity.name.tag
         2: string.tag
