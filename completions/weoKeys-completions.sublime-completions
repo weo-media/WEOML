@@ -81,6 +81,7 @@
 { "trigger": "ClientEx TRACKINGPHONE\tWEO Key", "contents": "[[[CLIENTEX:TRACKINGPHONE]]]$0"},
 { "trigger": "ClientEx LOCATION2\tWEO Key", "contents": "[[[CLIENTEX:LOCATION2]]]$0"},
 { "trigger": "ClientEx LOCATION3\tWEO Key", "contents": "[[[CLIENTEX:LOCATION3]]]$0"},
+{ "trigger": "CSP\tWEO Key", "contents": "[[[CSP:${1: field name}]]]$0"},
 { "trigger": "Dear-Doctor\tWEO Key", "contents": "[[[func:PatEdVid|${1:VideoID}|${2:560}|${3:315}|${4:Optional Title (inserts text above video as H2)}]]]$0"},
 { "trigger": "Dear-Doctor-Left\tWEO Key", "contents": "[[[func:PatEdVidLeft|${1:VideoID}|${2:560}|${3:315}|${4: Optional Title (inserts text above video as H2)}]]]$0"},
 { "trigger": "Dear-Doctor-Right\tWEO Key", "contents": "[[[func:PatEdVidRight|${1:VideoID}|${2:560}|${3:315}|${4: Optional Title (inserts text above video as H2)}]]]$0"},
