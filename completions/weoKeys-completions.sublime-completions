@@ -5,7 +5,7 @@
   [ 
 
 { "trigger": "A\tWEO Key", "contents": "[[[A:${1: optional comment}|${2: articleID/articleName}|${3: optional width }|${4: opt titleDisplay(0 norm, 1 bold, 2 none)}|${5: opt imageDisplay (0 normal, 1 suppess)}|${6: opt No ArtBox (1 suppress)}]]]$0"},
-{ "trigger": "Ani\tWEO Key", "contents": "[[[Ani:${1: Set}${2: set-name}${3: onceOn}${4: fadeUp}${5: del0}${6: dur600}${7:seq200}|${8:content}]]]$0"},
+{ "trigger": "Ani\tWEO Key", "contents": "[[[Ani:${1: Set}${2: set-name}${3: onceOn}${4: fadeUp}${5: del0}${6: dur600}${7: seq200}|${8:content}]]]$0"},
 { "trigger": "AniDiv\tWEO Key", "contents": "[[[AniDiv:${1: aDivID}|${2: opt class/style}|${3: content}|${4: animation speed}|${5: opt close on click 0,1 default}|${6: opt doFloat (1 float)}]]]$0"},
 { "trigger": "AniDivClick\tWEO Key", "contents": "[[[AniDivClick:${1: aDivID}|${2: content}|${3: opt class/style}|${4: opt animation speed}]]]$0"},
 { "trigger": "Article\tWEO Key", "contents": "[[[Article:${1: articleID/articleName}|${2: optional width }|${3: opt titleDisplay(0 norm, 1 bold, 2 none)}|${4: opt imageDisplay (0 normal, 1 suppess)}|${5: opt No ArtBox (1 suppress)}]]]$0"},
