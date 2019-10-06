@@ -374,6 +374,13 @@
 { "trigger": "WEBSITE_NAVIGATION_ULBOOTSTRAP\tWEO Core", "contents": "[[[WEBSITE_NAVIGATION_ULBOOTSTRAP]]]$0"},
 { "trigger": "Widget\tWEO Key", "contents": "[[[Widget:${1: Company(GURU,DEMANDFORCE,SHARETHIS,LIGHTHOUSE,ZOCDOC,YELP,RATEADENTIST,LOCALMED,PINTEREST,BESTLOCALREVIEWS,CASEY)}|${2: param1}|${3: param2}|${4: param3}|${5: param4}|${6: param5}|${7: param6}"},
 
+//bootstrap components
+{ "trigger": "media-object\tWEO", "contents": "[[[D:TPmedia|[[[Page:${1:Subpage}|${2:[[[Pic:${3:PicName.jpg}|100%|||TPmedia-object|${4:Image alt text}]]]}|TPpull-left]]][[[D:TPmedia-body|[[[H4:${5: theText}||TPmedia-heading]]]<p>${6: theText}</p>]]] ]]]${0}"},
+{ "trigger": "container-row-col\tWEO", "contents": "[[[DivStyle:TPBandCol-fluid|[[[D:TProw|[[[D:TPcol-xs-${1} TPcol-sm-${2} TPcol-md-${3} TPcol-lg-${4}|${5: }]]]${6: }]]]${7: }]]]${0}"},
+{ "trigger": "row\tWEO", "contents": "[[[D:TProw|${1}]]]${0}"},
+{ "trigger": "row-col\tWEO", "contents": "[[[D:TProw|[[[D:TPcol-xs-${1} TPcol-sm-${2} TPcol-md-${3} TPcol-lg-${4}|${5}]]]${6}]]]${0}"},
+{ "trigger": "col\tWEO", "contents": "[[[D:TPcol-xs-${1} TPcol-sm-${2} TPcol-md-${3} TPcol-lg-${4}|${5}]]]${0}"},
+
 //alt tag image descriptions for 2019 Refreshed Stock Content
 {"trigger": "3D illustration of mandible", "contents": "3D illustration of mandible"},
 {"trigger": "3D rendering of a dental implant next to healthy teeth", "contents": "3D rendering of a dental implant next to healthy teeth"},
