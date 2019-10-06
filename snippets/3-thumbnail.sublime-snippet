@@ -1,13 +1,10 @@
 <snippet>
 	<content><![CDATA[
-[[[DIVSTYLE:TProw|[[[DIVSTYLE:TPcol-sm-4|[[[page:${1:#####}|[[[DIVSTYLE:TPthumbnail|[[[C:
-***| start thumbnail 1 |***]]][[[PIC:${2:img.jpg}|${3:100%}|||TPcta-responsive|||||]]][[[DIVSTYLE:TPcaption|${4:caption text}]]]]]]|TPthumbnail-link]]] ]]][[[C:***| end col 1 |***]]]
+[[[DIVSTYLE:TProw|[[[DIVSTYLE:${1:TPcol-sm-6 TPcol-md-4}|[[[DIVSTYLE:TPthumbnail|[[[PIC:${2:img.jpg}||||TPcta-responsive|Image alt text]]][[[DIVSTYLE:TPcaption|[[[H3:${3:caption header}||]]]<p>${4:caption text}</p>]]][[[D:TPthumbnail-footer|[[[Page:${5:Subpage}|${6:Button Text}|TPbtn TPbtn-lg TPbtn-primary TPbtn-block]]] ]]] ]]] ]]][[[C:***| end col |***]]]
 
-[[[DIVSTYLE:TPcol-sm-4|[[[page:${5:#####}|[[[DIVSTYLE:TPthumbnail|[[[C:
-***| start thumbnail 2 |***]]][[[PIC:${6:img.jpg}|${7:100%}|||TPcta-responsive|||||]]][[[DIVSTYLE:TPcaption|${8:caption text}]]]]]]|TPthumbnail-link]]] ]]][[[C:***| end col 2 |***]]]
+[[[DIVSTYLE:${1:TPcol-sm-6 TPcol-md-4}|[[[DIVSTYLE:TPthumbnail|[[[PIC:${2:img.jpg}||||TPcta-responsive|Image alt text]]][[[DIVSTYLE:TPcaption|[[[H3:${3:caption header}||]]]<p>${4:caption text}</p>]]][[[D:TPthumbnail-footer|[[[Page:${5:Subpage}|${6:Button Text}|TPbtn TPbtn-lg TPbtn-primary TPbtn-block]]] ]]] ]]] ]]][[[C:***| end col |***]]]
 
-[[[DIVSTYLE:TPcol-sm-4|[[[page:${9:#####}|[[[DIVSTYLE:TPthumbnail|[[[C:
-***| start thumbnail 3 |***]]][[[PIC:${10:img.jpg}|${11:100%}|||TPcta-responsive|||||]]][[[DIVSTYLE:TPcaption|${12:caption text}]]]]]]|TPthumbnail-link]]] ]]][[[C:***| end col 3 |***]]] ]]]
+[[[DIVSTYLE:${1:TPcol-sm-6 TPcol-md-4}|[[[DIVSTYLE:TPthumbnail|[[[PIC:${2:img.jpg}||||TPcta-responsive|Image alt text]]][[[DIVSTYLE:TPcaption|[[[H3:${3:caption header}||]]]<p>${4:caption text}</p>]]][[[D:TPthumbnail-footer|[[[Page:${5:Subpage}|${6:Button Text}|TPbtn TPbtn-lg TPbtn-primary TPbtn-block]]] ]]] ]]] ]]][[[C:***| end col |***]]] ]]]
 ]]></content>
 	<tabTrigger>snip-3-thumbnail</tabTrigger>
 </snippet>

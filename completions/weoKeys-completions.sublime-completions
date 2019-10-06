@@ -16,7 +16,7 @@
 { "trigger": "BlogList\tWEO Key", "contents": "[[[BlogList:${1: list of blog IDs/tags comma sep}|${2: opt display style}|${3: opt results limit}|${4: opt intro text len}|${5: opt item class/style}|${6: opt article title class}|${7: opt enclosure class/style}|${8: opt image class/style}|${9: opt alt WP ID}]]]$0"},
 { "trigger": "Border-radius\tWEO Key", "contents": "[[[Border-radius:${1: aRadiusTL in px}|${2: TR}|${3: BL}|${4: BR}]]]$0"},
 { "trigger": "Btn\tWEO Key", "contents": "[[[Btn:${1: PictureName}|${2: optional width}|${3: optional link PageName or ID }|${4: optional alignment}|${5: optional style/class}|${6: optional alt text}|${7: opt Frame pic}|${8: opt frame width}|${9: opt frame height}|${10: opt frame class/style}]]]$0"},
-{ "trigger": "BulletList\tWEO Key", "contents": "[[[BulletList:${1: items separated by semicolons }|${2: optional class or style}|${3: optional bullet graphic}|${4: optional sep char (default to semicolon)}]]]$0"},
+{ "trigger": "BulletList\tWEO Key", "contents": "[[[D:padding-left:24px;|[[[BulletList:${1: items separated by semicolons }|${2: optional class or style}|${3: optional bullet graphic}|${4: optional sep char (default to semicolon)}]]] ]]]$0"},
 { "trigger": "C\tWEO Key", "contents": "[[[C:$2*** ${1: comment text}$3 ***]]]$0"},
 { "trigger": "Calendar\tWEO Key", "contents": "[[[Calendar:]]]$0"},
 { "trigger": "CalItem\tWEO Key", "contents": "[[[CalItem:]]]$0"},

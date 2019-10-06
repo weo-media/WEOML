@@ -3,8 +3,6 @@
 [[[DIVSTYLE:TProw|[[[DIVSTYLE:TPcol-md-6|${1: }]]][[[C:***| end col 1 |***]]]
 [[[DIVSTYLE:TPcol-md-6|${2: }]]][[[C:***| end col 2 |***]]]
 ]]][[[C:***| END ROW |***]]]
-
-$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>snip-2-div</tabTrigger>
