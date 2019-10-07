@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-[[[DIVSTYLE:${1:TPcol-sm-6 TPcol-md-3}|[[[DIVSTYLE:TPthumbnail|[[[PIC:${2:img.jpg}||||TPcta-responsive|${3:Image alt text}]]][[[DIVSTYLE:TPcaption|[[[H3:${4:caption header}||]]]<p>${5:caption text}</p>]]][[[D:TPthumbnail-footer|[[[Page:${6:Subpage}|${7:Button Text}|TPbtn TPbtn-lg TPbtn-primary TPbtn-block]]] ]]] ]]] ]]]${0}
+[[[DIVSTYLE:${1:TPcol-sm-6 TPcol-md-3}|[[[Page:${2:Subpage}|[[[PIC:${3:img.jpg}||||TPcta-responsive|${4:Image alt text}]]][[[DIVSTYLE:TPcaption|${5:caption text} ]]]|TPthumbnail]]] ]]]${0}
 ]]></content>
 	<tabTrigger>snip-thumbnail-button-link</tabTrigger>
 </snippet>
