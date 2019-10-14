@@ -4,6 +4,16 @@
 `  \      |  __|\__/ / | |\/| | __/ _ | / _ | Dental`
 `   \_/\_/|____|____/  |_|  |_\___\__.|_\__.| Marketing`
 
+Added some bootstrap completions like container-row-col, row, row-col, col, and media-object.
+
+Small edit to carousel snip.
+
+Added new snips for thumbnail button links and updated thumbnail and 3-thumbnail snip code to be inline with standards.
+
+Wrapped the bullet list key in a div with padding-left: 24px;
+
+-------------------------------------------------------
+
 Added new keys BlockCopy, PagesBar, and PicsBar to syntax highlighting and completions. 
 
 PHONE key and ITEM key must be capitalized in order for syntax highlighting to occur.
