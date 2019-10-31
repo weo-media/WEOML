@@ -374,6 +374,27 @@
 { "trigger": "WEBSITE_NAVIGATION_ULBOOTSTRAP\tWEO Core", "contents": "[[[WEBSITE_NAVIGATION_ULBOOTSTRAP]]]$0"},
 { "trigger": "Widget\tWEO Key", "contents": "[[[Widget:${1: Company(GURU,DEMANDFORCE,SHARETHIS,LIGHTHOUSE,ZOCDOC,YELP,RATEADENTIST,LOCALMED,PINTEREST,BESTLOCALREVIEWS,CASEY)}|${2: param1}|${3: param2}|${4: param3}|${5: param4}|${6: param5}|${7: param6}"},
 
+//schema snippets
+{ "trigger": "SchemaFAQPage\tWEO Snip", "contents": "<div itemscope itemtype=\"https://schema.org/FAQPage\">"},
+{ "trigger": "SchemaFAQQuestion\tWEO Snip", "contents": "<div itemscope itemprop=\"mainEntity\" itemtype=\"https://schema.org/Question\"><span itemprop=\"name\">"},
+{ "trigger": "SchemaFAQAnswer\tWEO Snip", "contents": "<div itemscope itemprop=\"acceptedAnswer\" itemtype=\"https://schema.org/Answer\"><span itemprop=\"text\">"},
+{ "trigger": "SchemaMedicalDevice\tWEO Snip", "contents": "<div itemscope itemtype=\"https://schema.org/MedicalDevice\"><span itemprop=\"name\">"},
+{ "trigger": "SchemaMedicalProcedure\tWEO Snip", "contents": "<article id=\"$1\" itemscope itemtype=\"https://schema.org/MedicalProcedure\"><span itemprop=\"name\">$0"},
+{ "trigger": "SchemaSurgicalProcedure\tWEO Snip", "contents": "<article id=\"$1\" itemscope itemtype=\"https://schema.org/SurgicalProcedure\"><span itemprop=\"name\">$0"},
+{ "trigger": "SchemaIndication\tWEO Snip", "contents": "<span itemprop=\"indication\">"},
+{ "trigger": "SchemaHowPerformed\tWEO Snip", "contents": "<span itemprop=\"howPerformed\">"},
+{ "trigger": "SchemaOutcome\tWEO Snip", "contents": "<span itemprop=\"outcome\">"},
+{ "trigger": "SchemaPreparation\tWEO Snip", "contents": "<span itemprop=\"preparation\">"},
+{ "trigger": "SchemaFollowup\tWEO Snip", "contents": "<span itemprop=\"followup\">"},
+{ "trigger": "SchemaBodyLocation\tWEO Snip", "contents": "<meta itemprop=\"bodyLocation\" content=\"Mouth\">"},
+{ "trigger": "SchemaProcedureType\tWEO Snip", "contents": "<meta itemprop=\"procedureType\" content=\"Noninvasive\">"},
+{ "trigger": "SchemaMedicineSystem\tWEO Snip", "contents": "<meta itemprop=\"medicineSystem\" content=\"WesternConventional\">"},
+{ "trigger": "SchemaRecognizingAuthority\tWEO Snip", "contents": "<meta itemprop=\"recognizingAuthority\" content=\"American Dental Association\">"},
+{ "trigger": "SchemaRelevantSpecialty\tWEO Snip", "contents": "<meta itemprop=\"relevantSpecialty\" content=\"Dentistry\">"},
+{ "trigger": "SchemaWebSite\tWEO Snip", "contents": "<div itemscope itemtype=\"https://schema.org/WebSite\"><link itemprop=\"url\" href=\"[[[Client:URL]]]\"/><link itemprop=\"sameAs\" href=\"[[[Client:URL]]]\">"},
+{ "trigger": "SchemaVideo\tWEO Snip", "contents": "<div itemprop=\"video\" itemscope itemtype=\"https://schema.org/VideoObject\"><meta itemprop=\"name\" content=\"Meet [[[CLIENTEX:DOCNAME1]]]\"><meta itemprop=\"duration\" content=\"${1:T2M16S}\"><meta itemprop=\"thumbnailUrl\" content=\"${2:https://i.ytimg.com/vi/${3:r5x3lAYcSqg}/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLC1OYEnRidX2ZiNQTKUWhWOnpUjTg}\"><meta itemprop=\"contentURL\" content=\"https://www.youtube.com/watch?v=${3:r5x3lAYcSqg}\"><meta itemprop=\"embedURL\" content=\"https://www.youtube.com/embed/${3:r5x3lAYcSqg}\"><meta itemprop=\"uploadDate\" content=\"${4:2016-05-25}\"/>$0"},
+{ "trigger": "SchemaVideoDescription\tWEO Snip", "contents": "<meta itemprop=\"description\" content=\"[[[Client:URL]]]  [[[CLIENTEX:DOCNAME1]]], ${1:an exceptional dentist serving [[[Client:StreetCity]]], [[[Client:StreetState]]], explains the philosophy behind their practice.}\">$0"},
+
 //bootstrap components
 { "trigger": "media-object\tWEO", "contents": "[[[D:TPmedia|[[[Page:${1:Subpage}|${2:[[[Pic:${3:PicName.jpg}|100%|||TPmedia-object|${4:Image alt text}]]]}|TPpull-left]]][[[D:TPmedia-body|[[[H4:${5: theText}||TPmedia-heading]]]<p>${6: theText}</p>]]] ]]]${0}"},
 { "trigger": "container-row-col\tWEO", "contents": "[[[DivStyle:TPBandCol-fluid|[[[D:TProw|[[[D:TPcol-xs-${1} TPcol-sm-${2} TPcol-md-${3} TPcol-lg-${4}|${5: }]]]${6: }]]]${7: }]]]${0}"},
