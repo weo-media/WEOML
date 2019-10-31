@@ -1,0 +1,77 @@
+<snippet>
+  <content><![CDATA[
+<div itemscope="" itemtype="https://schema.org/Dentist">
+    <meta itemprop="name" content="[[[CLIENTEX:PRACTICENAME]]]" />
+    <link itemprop="url" href="[[[Client:URL]]]" />
+    <link itemprop="sameAs" href="[[[csp:facebook]]]" />
+    <link itemprop="sameAs" href="[[[csp:yelp]]]" />
+    <meta itemprop="isAcceptingNewPatients" content="True" />
+    <meta itemprop="priceRange" content="${1:\$-\$\$\$}" />
+    <div itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+        <meta itemprop="itemReviewed" content="[[[CLIENTEX:PRACTICENAME]]]">
+        <meta itemprop="ratingValue" content="${2:5.0}">
+        <meta itemprop="reviewCount" content="${3:5}">
+    </div>
+    <div itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        <meta itemprop="name" content="[[[CLIENTEX:PRACTICENAME]]] logo"> <img itemprop="url" style="display:none;" src="[[[Client:URL]]][[[IMG:LGO-default-[[[CLIENTID]]].png]]]" alt="[[[CLIENTEX:PRACTICENAME]]] logo">
+        <meta itemprop="description" content="[[[CLIENTEX:PRACTICENAME]]] logo">
+    </div>
+    <span itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="[[[Client:StreetAddress1]]] [[[Client:StreetAddress2]]]"/>
+        <meta itemprop="postalCode" content="[[[Client:StreetZip]]]"/>
+        <meta itemprop="addressLocality" content="[[[Client:StreetCity]]]"/>
+        <meta itemprop="addressRegion" content="[[[Client:StreetState]]]"/>
+        <meta itemprop="addressCountry" content="[[[Client:StreetCountry]]]"/>
+        <meta itemprop="telephone" content="+1[[[PHONE]]]"/> 
+    </span>
+    <meta itemprop="openingHours" content="Monday: ${4:0800-1700}" />
+    <meta itemprop="openingHours" content="Tuesday: ${4:0800-1700}" />
+    <meta itemprop="openingHours" content="Wednesday: ${4:0800-1700}" />
+    <meta itemprop="openingHours" content="Thursday: ${4:0800-1700}" />
+    <meta itemprop="openingHours" content="Friday: ${4:0800-1700}" />
+    <div itemprop="geo" itemscope itemtype="https://schema.org/GeoCoordinates">
+    <meta itemprop="latitude" content="${5:##.#####}" />
+    <meta itemprop="longitude" content="${6:-###.#####}" />
+    </div>
+    <span itemprop="member" itemscope="" itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="[[[CLIENTEX:DOCNAME1]]]"/>
+        <meta itemprop="honorificPrefix" content="${7:Dr}"/>
+        <meta itemprop="sameAs" content="[[[Page-URL:${8:Meet the Doctor}]]]"/>
+        <meta itemprop="image" content="[[[Client:URL]]][[[IMG:IMG-Doc1.jpg]]]"/> 
+    </span>
+    <span itemprop="availableService" itemtype="MedicalProcedure">
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Cosmetic_dentistry" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dental_emergency" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dental_restoration" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Veneer_(dentistry)" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Clear_aligners" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dental_extraction" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Orthodontics" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dental_braces" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Bridge_(dentistry)" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dental_implant" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/CEREC" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Tooth_whitening" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Crown_(dentistry)" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dental_implant" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Cosmetic_dentistry" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Bone_grafting" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Impacted_wisdom_teeth" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Bone_grafting#Dental_implant" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Facial_trauma" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Orthognathic_surgery" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Temporomandibular_joint_dysfunction" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/All-on-4" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dentures" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Dentistry" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Oral_cancer" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Bone_morphogenetic_protein" />
+        <link itemprop="additionalType" href="https://www.productontology.org/id/Implant-supported_bridge" />
+    </span>
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>snip-schema-dentist</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>html.weoml</scope> -->
+</snippet>
