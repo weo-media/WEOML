@@ -1,0 +1,127 @@
+<snippet>
+  <content><![CDATA[
+{
+  "@context": "http://www.schema.org",
+  "@type": "LocalBusiness",
+  "name": "[[[CLIENTEX:PRACTICENAME]]]",
+  "url": "[[[Client:URL]]]",
+  "telephone": "+1[[[PHONE]]]",
+  "sameAs": [
+    "${1:[[[csp:facebook]]]}",
+    "${2:[[[csp:yelp]]]}",
+    "${3:replace with google maps}"
+  ],
+  "logo": "${4:[[[Client:URL]]][[[IMG:LGO-default-[[[CLIENTID]]].png]]]}",
+  "image": "${5:[[[Client:URL]]][[[IMG:IMG-default-[[[CLIENTID]]].png]]]}",
+  "priceRange": "\$ - \$\$\$",
+  "address": {
+    "@context": "http://www.schema.org",
+    "@type": "PostalAddress",
+    "streetAddress": "[[[Client:StreetAddress1]]] [[[Client:StreetAddress2]]]",
+    "addressLocality": "[[[Client:StreetCity]]]",
+    "addressRegion": "[[[Client:StreetState]]]",
+    "postalCode": "[[[Client:StreetZip]]]",
+    "addressCountry": "USA"
+  },
+  "aggregateRating": {
+    "@context": "http://www.schema.org",
+    "@type": "AggregateRating",
+    "ratingValue": "${6:5}",
+    "reviewCount": "${7:10}",
+    "url": "${8:replace with google maps url}"
+  },
+  "paymentAccepted": [
+    "Cash",
+    "Check",
+    "Credit Card",
+    "CareCredit"
+  ],
+  "areaServed": [
+    {
+      "@context": "https://www.schema.org",
+      "@type": "Country",
+      "name": "USA"
+    },
+    {
+      "@context": "https://www.schema.org",
+      "@type": "State",
+      "name": "${9:Idaho}",
+      "alternateNAme": [
+        "${10:idaho}",
+        "${11:ID}",
+        "${12:Id}",
+        "${13:id}"
+      ]
+    },
+    {
+      "@context": "https://www.schema.org",
+      "@type": "City",
+      "name": [
+        "${14:Boise}",
+        "${15:Hidden Springs}",
+        "${16:Eagle}",
+        "${17:Cloverdale}",
+        "${18:Meridian}",
+        "${19:Blacks Creek}",
+        "${20:Pearl}",
+        "${21:Horseshoe Bend}"
+      ]
+    }
+  ],
+  "geo": {
+    "@context": "https://www.schema.org",
+    "@type": "GeoCoordinates",
+    "latitude": "${22:43.6644652}",
+    "longitude": "${23:-116.2806765}"
+  },
+  "hasMap": "${24:https://goo.gl/maps/uTKXs3wCU7w}",
+  "openingHours": [
+    "Monday ${25:08:00-17:00}",
+    "Tuesday ${26:08:00-17:00}",
+    "Wednesday ${27:07:00-16:00}",
+    "Thursday ${28:08:00-17:00}",
+    "Friday ${29:07:00-12:00}",
+    "Saturday ${30:Closed}",
+    "Sunday ${31:Closed}"
+  ],
+  "contactPoint": {
+    "@context": "https://www.schema.org",
+    "@type": "ContactPoint",
+    "contactType": "Customer Service",
+    "telephone": "+1[[[PHONE]]]"
+  },
+  
+  "hasOfferCatalog": {
+    "@context": "https://www.schema.org",
+    "@type": "OfferCatalog",
+    "name": "Dental Services",
+    "itemListElement": [
+      {
+        "@context": "https://www.schema.org",
+        "@type": "OfferCatalog",
+        "name": "${32:Page Name}",
+        "description": "${33:page description}",
+        "url": "[[[Client:URL]]][[[Page-URL:${34:#####}]]]",
+        "itemListElement": [
+          {
+            "@context": "https://www.schema.org",
+            "@type": "Offer",
+            "itemOffered": {
+              "@context": "https://www.schema.org",
+              "@type": "Service",
+              "name": "${35:Page Name}",
+              "description": "${36:page description}",
+              "url": "[[[Client:URL]]][[[Page-URL:${37:#####}]]]"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>snip-json-local-business-schema</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
