@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-[[[divstyle:TPembed-responsive TPembed-responsive-${1:16by9}|<iframe class="TPembed-responsive-item" src="https://www.youtube.com/embed/${2:NpEaa2P7qZI}?rel=0" scrolling="no" frameborder="no"></iframe>]]]$0
+[[[divstyle:TPembed-responsive TPembed-responsive-${1:16by9}|<iframe class="TPembed-responsive-item" loading="lazy" src="https://www.youtube.com/embed/${2:NpEaa2P7qZI}?rel=0" scrolling="no" frameborder="no"></iframe>]]]$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>snip-embed-responsive-iframe-video</tabTrigger>
